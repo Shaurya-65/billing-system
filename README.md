@@ -32,7 +32,8 @@ It allows users to add products, calculate total cost, and manage items easily.
 
 ## 📸 Preview
 
-(Add screenshot here later if you want)
+<img width="1167" height="919" alt="image" src="https://github.com/user-attachments/assets/74a95d4a-0475-4be7-a104-2ce85726b08e" />
+
 
 ---
 
