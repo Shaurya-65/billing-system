@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Billing System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>🧾 Customer Billing System</h2>
+    <p id="error"></p>
+
+    <input type="text" id="product" placeholder="Product Name">
+    <input type="number" id="price" placeholder="Price">
+    <input type="number" id="qty" placeholder="Quantity">
+
+    <br>
+    <button class="add" onclick="addItem()">Add Item</button>
+    <button class="clear" onclick="clearBill()">Clear Bill</button>
+
+    <table id="billTable">
+        <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Qty</th>
+            <th>Total</th>
+            <th>Action</th>
+        </tr>
+    </table>
+
+    <h2 id="grandTotal">Total: ₹0</h2>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
